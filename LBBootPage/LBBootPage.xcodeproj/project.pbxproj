@@ -27,8 +27,8 @@
 		3A6C7E3420504A0400464141 /* LBSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C7E3320504A0400464141 /* LBSingle.m */; };
 		3A6C7E7620504BA400464141 /* 高架桥.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6120504BA400464141 /* 高架桥.png */; };
 		3A6C7E7720504BA400464141 /* 汽车剪影.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6220504BA400464141 /* 汽车剪影.png */; };
-		3A6C7E7820504BA400464141 /* WechatIMG387.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6320504BA400464141 /* WechatIMG387.jpeg */; };
-		3A6C7E7920504BA400464141 /* WechatIMG386.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6420504BA400464141 /* WechatIMG386.jpeg */; };
+		3A6C7E7820504BA400464141 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6320504BA400464141 /* 2.jpeg */; };
+		3A6C7E7920504BA400464141 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6420504BA400464141 /* 1.jpeg */; };
 		3A6C7E7A20504BA400464141 /* 城市剪影 拷贝.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6520504BA400464141 /* 城市剪影 拷贝.png */; };
 		3A6C7E7B20504BA400464141 /* 3.2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6620504BA400464141 /* 3.2.png */; };
 		3A6C7E7C20504BA400464141 /* 2.2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6720504BA400464141 /* 2.2.png */; };
@@ -40,11 +40,11 @@
 		3A6C7E8220504BA400464141 /* 云1.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6D20504BA400464141 /* 云1.1.png */; };
 		3A6C7E8320504BA400464141 /* 云1.2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6E20504BA400464141 /* 云1.2.png */; };
 		3A6C7E8420504BA400464141 /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6F20504BA400464141 /* 背景.png */; };
-		3A6C7E8520504BA400464141 /* WechatIMG389.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7020504BA400464141 /* WechatIMG389.jpeg */; };
+		3A6C7E8520504BA400464141 /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7020504BA400464141 /* 4.jpeg */; };
 		3A6C7E8620504BA400464141 /* 云4.2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7120504BA400464141 /* 云4.2.png */; };
 		3A6C7E8720504BA400464141 /* 云4.3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7220504BA400464141 /* 云4.3.png */; };
 		3A6C7E8820504BA400464141 /* 云2.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7320504BA400464141 /* 云2.1.png */; };
-		3A6C7E8920504BA400464141 /* WechatIMG388.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7420504BA400464141 /* WechatIMG388.jpeg */; };
+		3A6C7E8920504BA400464141 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7420504BA400464141 /* 3.jpeg */; };
 		3A6C7E8A20504BA400464141 /* 圆角矩形 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7520504BA400464141 /* 圆角矩形 1.png */; };
 /* End PBXBuildFile section */
 
@@ -89,8 +89,8 @@
 		3A6C7E3320504A0400464141 /* LBSingle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSingle.m; sourceTree = "<group>"; };
 		3A6C7E6120504BA400464141 /* 高架桥.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高架桥.png"; sourceTree = "<group>"; };
 		3A6C7E6220504BA400464141 /* 汽车剪影.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "汽车剪影.png"; sourceTree = "<group>"; };
-		3A6C7E6320504BA400464141 /* WechatIMG387.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG387.jpeg; sourceTree = "<group>"; };
-		3A6C7E6420504BA400464141 /* WechatIMG386.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG386.jpeg; sourceTree = "<group>"; };
+		3A6C7E6320504BA400464141 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		3A6C7E6420504BA400464141 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 		3A6C7E6520504BA400464141 /* 城市剪影 拷贝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "城市剪影 拷贝.png"; sourceTree = "<group>"; };
 		3A6C7E6620504BA400464141 /* 3.2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.2.png; sourceTree = "<group>"; };
 		3A6C7E6720504BA400464141 /* 2.2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.2.png; sourceTree = "<group>"; };
@@ -102,11 +102,11 @@
 		3A6C7E6D20504BA400464141 /* 云1.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云1.1.png"; sourceTree = "<group>"; };
 		3A6C7E6E20504BA400464141 /* 云1.2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云1.2.png"; sourceTree = "<group>"; };
 		3A6C7E6F20504BA400464141 /* 背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景.png"; sourceTree = "<group>"; };
-		3A6C7E7020504BA400464141 /* WechatIMG389.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG389.jpeg; sourceTree = "<group>"; };
+		3A6C7E7020504BA400464141 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
 		3A6C7E7120504BA400464141 /* 云4.2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云4.2.png"; sourceTree = "<group>"; };
 		3A6C7E7220504BA400464141 /* 云4.3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云4.3.png"; sourceTree = "<group>"; };
 		3A6C7E7320504BA400464141 /* 云2.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云2.1.png"; sourceTree = "<group>"; };
-		3A6C7E7420504BA400464141 /* WechatIMG388.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG388.jpeg; sourceTree = "<group>"; };
+		3A6C7E7420504BA400464141 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
 		3A6C7E7520504BA400464141 /* 圆角矩形 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "圆角矩形 1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -219,8 +219,8 @@
 			children = (
 				3A6C7E6120504BA400464141 /* 高架桥.png */,
 				3A6C7E6220504BA400464141 /* 汽车剪影.png */,
-				3A6C7E6320504BA400464141 /* WechatIMG387.jpeg */,
-				3A6C7E6420504BA400464141 /* WechatIMG386.jpeg */,
+				3A6C7E6320504BA400464141 /* 2.jpeg */,
+				3A6C7E6420504BA400464141 /* 1.jpeg */,
 				3A6C7E6520504BA400464141 /* 城市剪影 拷贝.png */,
 				3A6C7E6620504BA400464141 /* 3.2.png */,
 				3A6C7E6720504BA400464141 /* 2.2.png */,
@@ -232,11 +232,11 @@
 				3A6C7E6D20504BA400464141 /* 云1.1.png */,
 				3A6C7E6E20504BA400464141 /* 云1.2.png */,
 				3A6C7E6F20504BA400464141 /* 背景.png */,
-				3A6C7E7020504BA400464141 /* WechatIMG389.jpeg */,
+				3A6C7E7020504BA400464141 /* 4.jpeg */,
 				3A6C7E7120504BA400464141 /* 云4.2.png */,
 				3A6C7E7220504BA400464141 /* 云4.3.png */,
 				3A6C7E7320504BA400464141 /* 云2.1.png */,
-				3A6C7E7420504BA400464141 /* WechatIMG388.jpeg */,
+				3A6C7E7420504BA400464141 /* 3.jpeg */,
 				3A6C7E7520504BA400464141 /* 圆角矩形 1.png */,
 			);
 			path = image;
@@ -268,6 +268,7 @@
 		3A6C7DE52050473600464141 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LB;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "刘博";
 				TargetAttributes = {
@@ -307,10 +308,10 @@
 				3A6C7DFD2050473600464141 /* LaunchScreen.storyboard in Resources */,
 				3A6C7E8220504BA400464141 /* 云1.1.png in Resources */,
 				3A6C7DFA2050473600464141 /* Assets.xcassets in Resources */,
-				3A6C7E8520504BA400464141 /* WechatIMG389.jpeg in Resources */,
+				3A6C7E8520504BA400464141 /* 4.jpeg in Resources */,
 				3A6C7E8820504BA400464141 /* 云2.1.png in Resources */,
-				3A6C7E7820504BA400464141 /* WechatIMG387.jpeg in Resources */,
-				3A6C7E8920504BA400464141 /* WechatIMG388.jpeg in Resources */,
+				3A6C7E7820504BA400464141 /* 2.jpeg in Resources */,
+				3A6C7E8920504BA400464141 /* 3.jpeg in Resources */,
 				3A6C7E7C20504BA400464141 /* 2.2.png in Resources */,
 				3A6C7E7D20504BA400464141 /* 飞机剪影.png in Resources */,
 				3A6C7E7B20504BA400464141 /* 3.2.png in Resources */,
@@ -324,7 +325,7 @@
 				3A6C7E8020504BA400464141 /* logo.png in Resources */,
 				3A6C7E7620504BA400464141 /* 高架桥.png in Resources */,
 				3A6C7E7720504BA400464141 /* 汽车剪影.png in Resources */,
-				3A6C7E7920504BA400464141 /* WechatIMG386.jpeg in Resources */,
+				3A6C7E7920504BA400464141 /* 1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liubo.LBBootPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -502,7 +503,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liubo.LBBootPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
