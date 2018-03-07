@@ -25,6 +25,27 @@
 		3A6C7E2F2050490900464141 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C7E242050490800464141 /* MASViewAttribute.m */; };
 		3A6C7E302050490900464141 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E252050490800464141 /* Info.plist */; };
 		3A6C7E3420504A0400464141 /* LBSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C7E3320504A0400464141 /* LBSingle.m */; };
+		3A6C7E7620504BA400464141 /* 高架桥.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6120504BA400464141 /* 高架桥.png */; };
+		3A6C7E7720504BA400464141 /* 汽车剪影.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6220504BA400464141 /* 汽车剪影.png */; };
+		3A6C7E7820504BA400464141 /* WechatIMG387.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6320504BA400464141 /* WechatIMG387.jpeg */; };
+		3A6C7E7920504BA400464141 /* WechatIMG386.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6420504BA400464141 /* WechatIMG386.jpeg */; };
+		3A6C7E7A20504BA400464141 /* 城市剪影 拷贝.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6520504BA400464141 /* 城市剪影 拷贝.png */; };
+		3A6C7E7B20504BA400464141 /* 3.2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6620504BA400464141 /* 3.2.png */; };
+		3A6C7E7C20504BA400464141 /* 2.2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6720504BA400464141 /* 2.2.png */; };
+		3A6C7E7D20504BA400464141 /* 飞机剪影.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6820504BA400464141 /* 飞机剪影.png */; };
+		3A6C7E7E20504BA400464141 /* 城市剪影.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6920504BA400464141 /* 城市剪影.png */; };
+		3A6C7E7F20504BA400464141 /* 游艇.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6A20504BA400464141 /* 游艇.png */; };
+		3A6C7E8020504BA400464141 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6B20504BA400464141 /* logo.png */; };
+		3A6C7E8120504BA400464141 /* 引导.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6C20504BA400464141 /* 引导.gif */; };
+		3A6C7E8220504BA400464141 /* 云1.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6D20504BA400464141 /* 云1.1.png */; };
+		3A6C7E8320504BA400464141 /* 云1.2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6E20504BA400464141 /* 云1.2.png */; };
+		3A6C7E8420504BA400464141 /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6F20504BA400464141 /* 背景.png */; };
+		3A6C7E8520504BA400464141 /* WechatIMG389.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7020504BA400464141 /* WechatIMG389.jpeg */; };
+		3A6C7E8620504BA400464141 /* 云4.2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7120504BA400464141 /* 云4.2.png */; };
+		3A6C7E8720504BA400464141 /* 云4.3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7220504BA400464141 /* 云4.3.png */; };
+		3A6C7E8820504BA400464141 /* 云2.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7320504BA400464141 /* 云2.1.png */; };
+		3A6C7E8920504BA400464141 /* WechatIMG388.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7420504BA400464141 /* WechatIMG388.jpeg */; };
+		3A6C7E8A20504BA400464141 /* 圆角矩形 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7520504BA400464141 /* 圆角矩形 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +87,27 @@
 		3A6C7E252050490800464141 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A6C7E3220504A0400464141 /* LBSingle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBSingle.h; sourceTree = "<group>"; };
 		3A6C7E3320504A0400464141 /* LBSingle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSingle.m; sourceTree = "<group>"; };
+		3A6C7E6120504BA400464141 /* 高架桥.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高架桥.png"; sourceTree = "<group>"; };
+		3A6C7E6220504BA400464141 /* 汽车剪影.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "汽车剪影.png"; sourceTree = "<group>"; };
+		3A6C7E6320504BA400464141 /* WechatIMG387.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG387.jpeg; sourceTree = "<group>"; };
+		3A6C7E6420504BA400464141 /* WechatIMG386.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG386.jpeg; sourceTree = "<group>"; };
+		3A6C7E6520504BA400464141 /* 城市剪影 拷贝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "城市剪影 拷贝.png"; sourceTree = "<group>"; };
+		3A6C7E6620504BA400464141 /* 3.2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.2.png; sourceTree = "<group>"; };
+		3A6C7E6720504BA400464141 /* 2.2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.2.png; sourceTree = "<group>"; };
+		3A6C7E6820504BA400464141 /* 飞机剪影.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "飞机剪影.png"; sourceTree = "<group>"; };
+		3A6C7E6920504BA400464141 /* 城市剪影.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "城市剪影.png"; sourceTree = "<group>"; };
+		3A6C7E6A20504BA400464141 /* 游艇.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "游艇.png"; sourceTree = "<group>"; };
+		3A6C7E6B20504BA400464141 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		3A6C7E6C20504BA400464141 /* 引导.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "引导.gif"; sourceTree = "<group>"; };
+		3A6C7E6D20504BA400464141 /* 云1.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云1.1.png"; sourceTree = "<group>"; };
+		3A6C7E6E20504BA400464141 /* 云1.2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云1.2.png"; sourceTree = "<group>"; };
+		3A6C7E6F20504BA400464141 /* 背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景.png"; sourceTree = "<group>"; };
+		3A6C7E7020504BA400464141 /* WechatIMG389.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG389.jpeg; sourceTree = "<group>"; };
+		3A6C7E7120504BA400464141 /* 云4.2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云4.2.png"; sourceTree = "<group>"; };
+		3A6C7E7220504BA400464141 /* 云4.3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云4.3.png"; sourceTree = "<group>"; };
+		3A6C7E7320504BA400464141 /* 云2.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云2.1.png"; sourceTree = "<group>"; };
+		3A6C7E7420504BA400464141 /* WechatIMG388.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG388.jpeg; sourceTree = "<group>"; };
+		3A6C7E7520504BA400464141 /* 圆角矩形 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "圆角矩形 1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +142,7 @@
 			children = (
 				3A6C7DF02050473600464141 /* AppDelegate.h */,
 				3A6C7DF12050473600464141 /* AppDelegate.m */,
+				3A6C7E6020504BA300464141 /* image */,
 				3A6C7E0A2050490800464141 /* common */,
 				3A6C7E06205047BA00464141 /* 引导页 */,
 				3A6C7DF62050473600464141 /* Main.storyboard */,
@@ -171,6 +214,34 @@
 			path = LBSingle;
 			sourceTree = "<group>";
 		};
+		3A6C7E6020504BA300464141 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				3A6C7E6120504BA400464141 /* 高架桥.png */,
+				3A6C7E6220504BA400464141 /* 汽车剪影.png */,
+				3A6C7E6320504BA400464141 /* WechatIMG387.jpeg */,
+				3A6C7E6420504BA400464141 /* WechatIMG386.jpeg */,
+				3A6C7E6520504BA400464141 /* 城市剪影 拷贝.png */,
+				3A6C7E6620504BA400464141 /* 3.2.png */,
+				3A6C7E6720504BA400464141 /* 2.2.png */,
+				3A6C7E6820504BA400464141 /* 飞机剪影.png */,
+				3A6C7E6920504BA400464141 /* 城市剪影.png */,
+				3A6C7E6A20504BA400464141 /* 游艇.png */,
+				3A6C7E6B20504BA400464141 /* logo.png */,
+				3A6C7E6C20504BA400464141 /* 引导.gif */,
+				3A6C7E6D20504BA400464141 /* 云1.1.png */,
+				3A6C7E6E20504BA400464141 /* 云1.2.png */,
+				3A6C7E6F20504BA400464141 /* 背景.png */,
+				3A6C7E7020504BA400464141 /* WechatIMG389.jpeg */,
+				3A6C7E7120504BA400464141 /* 云4.2.png */,
+				3A6C7E7220504BA400464141 /* 云4.3.png */,
+				3A6C7E7320504BA400464141 /* 云2.1.png */,
+				3A6C7E7420504BA400464141 /* WechatIMG388.jpeg */,
+				3A6C7E7520504BA400464141 /* 圆角矩形 1.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,9 +301,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A6C7E302050490900464141 /* Info.plist in Resources */,
+				3A6C7E8A20504BA400464141 /* 圆角矩形 1.png in Resources */,
+				3A6C7E8420504BA400464141 /* 背景.png in Resources */,
+				3A6C7E7A20504BA400464141 /* 城市剪影 拷贝.png in Resources */,
 				3A6C7DFD2050473600464141 /* LaunchScreen.storyboard in Resources */,
+				3A6C7E8220504BA400464141 /* 云1.1.png in Resources */,
 				3A6C7DFA2050473600464141 /* Assets.xcassets in Resources */,
+				3A6C7E8520504BA400464141 /* WechatIMG389.jpeg in Resources */,
+				3A6C7E8820504BA400464141 /* 云2.1.png in Resources */,
+				3A6C7E7820504BA400464141 /* WechatIMG387.jpeg in Resources */,
+				3A6C7E8920504BA400464141 /* WechatIMG388.jpeg in Resources */,
+				3A6C7E7C20504BA400464141 /* 2.2.png in Resources */,
+				3A6C7E7D20504BA400464141 /* 飞机剪影.png in Resources */,
+				3A6C7E7B20504BA400464141 /* 3.2.png in Resources */,
+				3A6C7E7F20504BA400464141 /* 游艇.png in Resources */,
+				3A6C7E7E20504BA400464141 /* 城市剪影.png in Resources */,
+				3A6C7E8720504BA400464141 /* 云4.3.png in Resources */,
+				3A6C7E8320504BA400464141 /* 云1.2.png in Resources */,
+				3A6C7E8620504BA400464141 /* 云4.2.png in Resources */,
 				3A6C7DF82050473600464141 /* Main.storyboard in Resources */,
+				3A6C7E8120504BA400464141 /* 引导.gif in Resources */,
+				3A6C7E8020504BA400464141 /* logo.png in Resources */,
+				3A6C7E7620504BA400464141 /* 高架桥.png in Resources */,
+				3A6C7E7720504BA400464141 /* 汽车剪影.png in Resources */,
+				3A6C7E7920504BA400464141 /* WechatIMG386.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
