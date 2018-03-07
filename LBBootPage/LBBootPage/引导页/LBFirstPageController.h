@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LBFirstPageController.h
 //  LBBootPage
 //
 //  Created by liubo on 2018/3/8.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LBFirstPageController : UIViewController
 
 @end
-
