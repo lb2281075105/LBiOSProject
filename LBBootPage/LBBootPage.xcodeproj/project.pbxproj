@@ -39,13 +39,14 @@
 		3A6C7E8120504BA400464141 /* 引导.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6C20504BA400464141 /* 引导.gif */; };
 		3A6C7E8220504BA400464141 /* 云1.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6D20504BA400464141 /* 云1.1.png */; };
 		3A6C7E8320504BA400464141 /* 云1.2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6E20504BA400464141 /* 云1.2.png */; };
-		3A6C7E8420504BA400464141 /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6F20504BA400464141 /* 背景.png */; };
+		3A6C7E8420504BA400464141 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E6F20504BA400464141 /* background.png */; };
 		3A6C7E8520504BA400464141 /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7020504BA400464141 /* 4.jpeg */; };
 		3A6C7E8620504BA400464141 /* 云4.2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7120504BA400464141 /* 云4.2.png */; };
 		3A6C7E8720504BA400464141 /* 云4.3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7220504BA400464141 /* 云4.3.png */; };
 		3A6C7E8820504BA400464141 /* 云2.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7320504BA400464141 /* 云2.1.png */; };
 		3A6C7E8920504BA400464141 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7420504BA400464141 /* 3.jpeg */; };
 		3A6C7E8A20504BA400464141 /* 圆角矩形 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C7E7520504BA400464141 /* 圆角矩形 1.png */; };
+		3A6C7E922050D04400464141 /* UIColor+colorWithHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C7E912050D04400464141 /* UIColor+colorWithHex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,13 +102,15 @@
 		3A6C7E6C20504BA400464141 /* 引导.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "引导.gif"; sourceTree = "<group>"; };
 		3A6C7E6D20504BA400464141 /* 云1.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云1.1.png"; sourceTree = "<group>"; };
 		3A6C7E6E20504BA400464141 /* 云1.2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云1.2.png"; sourceTree = "<group>"; };
-		3A6C7E6F20504BA400464141 /* 背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景.png"; sourceTree = "<group>"; };
+		3A6C7E6F20504BA400464141 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		3A6C7E7020504BA400464141 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
 		3A6C7E7120504BA400464141 /* 云4.2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云4.2.png"; sourceTree = "<group>"; };
 		3A6C7E7220504BA400464141 /* 云4.3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云4.3.png"; sourceTree = "<group>"; };
 		3A6C7E7320504BA400464141 /* 云2.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云2.1.png"; sourceTree = "<group>"; };
 		3A6C7E7420504BA400464141 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
 		3A6C7E7520504BA400464141 /* 圆角矩形 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "圆角矩形 1.png"; sourceTree = "<group>"; };
+		3A6C7E902050D04400464141 /* UIColor+colorWithHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+colorWithHex.h"; sourceTree = "<group>"; };
+		3A6C7E912050D04400464141 /* UIColor+colorWithHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+colorWithHex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,7 @@
 		3A6C7E0A2050490800464141 /* common */ = {
 			isa = PBXGroup;
 			children = (
+				3A6C7E8B2050CFD100464141 /* UIColor */,
 				3A6C7E31205049F400464141 /* LBSingle */,
 				3A6C7E0B2050490800464141 /* Masonry */,
 			);
@@ -231,7 +235,7 @@
 				3A6C7E6C20504BA400464141 /* 引导.gif */,
 				3A6C7E6D20504BA400464141 /* 云1.1.png */,
 				3A6C7E6E20504BA400464141 /* 云1.2.png */,
-				3A6C7E6F20504BA400464141 /* 背景.png */,
+				3A6C7E6F20504BA400464141 /* background.png */,
 				3A6C7E7020504BA400464141 /* 4.jpeg */,
 				3A6C7E7120504BA400464141 /* 云4.2.png */,
 				3A6C7E7220504BA400464141 /* 云4.3.png */,
@@ -240,6 +244,15 @@
 				3A6C7E7520504BA400464141 /* 圆角矩形 1.png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		3A6C7E8B2050CFD100464141 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				3A6C7E902050D04400464141 /* UIColor+colorWithHex.h */,
+				3A6C7E912050D04400464141 /* UIColor+colorWithHex.m */,
+			);
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,7 +316,7 @@
 			files = (
 				3A6C7E302050490900464141 /* Info.plist in Resources */,
 				3A6C7E8A20504BA400464141 /* 圆角矩形 1.png in Resources */,
-				3A6C7E8420504BA400464141 /* 背景.png in Resources */,
+				3A6C7E8420504BA400464141 /* background.png in Resources */,
 				3A6C7E7A20504BA400464141 /* 城市剪影 拷贝.png in Resources */,
 				3A6C7DFD2050473600464141 /* LaunchScreen.storyboard in Resources */,
 				3A6C7E8220504BA400464141 /* 云1.1.png in Resources */,
@@ -349,6 +362,7 @@
 				3A6C7E2D2050490900464141 /* MASConstraint.m in Sources */,
 				3A6C7E262050490900464141 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				3A6C7E2A2050490900464141 /* MASLayoutConstraint.m in Sources */,
+				3A6C7E922050D04400464141 /* UIColor+colorWithHex.m in Sources */,
 				3A6C7DF22050473600464141 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

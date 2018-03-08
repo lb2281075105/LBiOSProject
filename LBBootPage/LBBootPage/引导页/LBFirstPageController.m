@@ -8,14 +8,22 @@
 
 #import "LBFirstPageController.h"
 #import "Masonry.h"
+#import "UIColor+colorWithHex.h"
 
 #define WIDTH [UIScreen mainScreen].bounds.size.width
 #define HEIGHT [UIScreen mainScreen].bounds.size.height
 
-@interface LBFirstPageController ()<UIScrollViewDelegate>
+@interface LBFirstPageController ()<UIScrollViewDelegate>{
+    NSTimer *_timer;
+}
 @property (nonatomic, strong)UIButton *button;
 @property (nonatomic, strong)UIScrollView *scrollView;
 @property (nonatomic, strong)UIImageView *startImage;
+@property (nonatomic, strong) UIPageControl *pageControl;
+@property (nonatomic, strong) UILabel *nameLabel;
+@property (nonatomic, strong) UILabel *englishLabel;
+@property (nonatomic, strong) UIImageView *imageView;
+
 @end
 
 @implementation LBFirstPageController
@@ -23,62 +31,81 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self loadImage];
-}
-
-- (void)loadImage{
-    [self createScrollView];
-    [self createButton];
-}
-
-- (void)createButton{
-//    _button = [UIButton buttonWithType:UIButtonTypeCustom];
-//    // 将button隐藏
-//    _button.hidden = true;
-//    _button.backgroundColor = [UIColor clearColor];
-//    [_button addTarget:self action:@selector(closeButton) forControlEvents:(UIControlEventTouchUpInside)];
-//    [self.view addSubview:_button];
-//    [_button mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.bottom.equalTo(self).offset(-30);
-//        make.centerX.equalTo(self);
-//        make.height.equalTo(@60);
-//        make.width.equalTo(@200);
-//    }];
-}
-- (void)closeButton{
-
-}
-
-- (void)createScrollView{
-    //分页
-    _scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, WIDTH, HEIGHT)];
-    _scrollView.pagingEnabled = YES;
-    _scrollView.scrollEnabled = YES;
-    _scrollView.delegate = self;
-    _scrollView.contentSize = CGSizeMake(WIDTH * 4, HEIGHT);
-    _scrollView.alwaysBounceHorizontal = YES;
-    _scrollView.bounces = NO;
-    _scrollView.showsHorizontalScrollIndicator = NO;
-    [self.view addSubview:_scrollView];
-    for (int i = 1; i < 5; i++) {
-        
-        UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake((i-1) * WIDTH, 0, WIDTH, HEIGHT)];
-        NSString *nameString = [NSString stringWithFormat:@"%d.jpeg",i];
-        NSLog(@"%@",nameString);
-        imageView.image = [UIImage imageNamed:nameString];
-        [_scrollView addSubview:imageView];
-    }
+    [self loadBackground];
+    [self setUpPageCircle];
     
+    // 设置文本
+    [self setUpLabel];
 }
-/// 已经结束减速
--(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
-    //判断当前页数
-    int index = (int)scrollView.contentOffset.x / WIDTH;
-    if(index == 3){
-        _button.hidden = false;
-    } else {
-        _button.hidden = true;
+
+- (void)loadBackground{
+    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, WIDTH, HEIGHT)];
+    _imageView = imageView;
+    NSString *nameString = [NSString stringWithFormat:@"background"];
+    imageView.image = [UIImage imageNamed:nameString];
+    [self.view addSubview:imageView];
+}
+- (void)setUpPageCircle{
+    _pageControl = [[UIPageControl alloc]init];
+    _pageControl.numberOfPages = 4;
+    _pageControl.currentPage = 0;
+    _pageControl.frame = CGRectMake((WIDTH - 8) / 2.0, HEIGHT - 35, 8, 8);
+    _pageControl.pageIndicatorTintColor = [UIColor redColor];// 设置非选中页的圆点颜色
+    _pageControl.currentPageIndicatorTintColor = [UIColor yellowColor]; // 设置选中页的圆点颜色
+    [self.view addSubview:_pageControl];
+    
+    
+    _timer =  [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(function) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:3 repeats:NO block:^(NSTimer * _Nonnull timer) {
+    }];
+}
+- (void)setUpLabel{
+    _nameLabel = [[UILabel alloc]init];
+    _englishLabel = [[UILabel alloc]init];
+    _nameLabel.text = @"游艇";
+    _englishLabel.text = @"Yacht";
+    _nameLabel.font = [UIFont systemFontOfSize:27];
+    _englishLabel.font = [UIFont systemFontOfSize:27];
+    _nameLabel.textColor = [UIColor colorWithRed:17 / 255.0 green:40 / 255.0 blue:86 / 255.0 alpha:1];
+    _englishLabel.textColor = [UIColor colorWithRed:17 / 255.0 green:40 / 255.0 blue:86 / 255.0 alpha:1];
+
+    _nameLabel.textAlignment = NSTextAlignmentCenter;
+    _englishLabel.textAlignment = NSTextAlignmentCenter;
+    
+    [self.view addSubview:_nameLabel];
+    [self.view addSubview:_englishLabel];
+    [_nameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(@(-184));
+        make.centerX.equalTo(_imageView);
+        make.height.equalTo(@26);
+        make.width.equalTo(@150);
+    }];
+    [_englishLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(@(-150));
+        make.centerX.equalTo(_imageView);
+        make.height.equalTo(@24);
+        make.width.equalTo(@180);
+    }];
+
+}
+- (void)function{
+    static int i = 0;
+    i++;
+    _pageControl.currentPage = i;
+    
+    if (i == 1) {
+        _nameLabel.text = @"飞机";
+        _englishLabel.text = @"Plane";
+    }else if (i == 2){
+        _nameLabel.text = @"汽车";
+        _englishLabel.text = @"Car";
+    }else if (i == 3){
+        _nameLabel.text = @"游艇联盟";
+        _englishLabel.text = @"Yacht Alliance";
+        [_timer invalidate];
+        _timer = nil;
     }
 }
+
 
 @end
