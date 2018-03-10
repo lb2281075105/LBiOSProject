@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>张三</string>
+		<key>content</key>
+		<string>如果你得罪了老板，失去的只是一份工作；如果你得罪了客户，失去的不过是一份订单；是的，世上只有一个人可以得罪：你给她脸色看，你冲她发牢骚你大声顶撞她，甚至当 着她的面摔碗，她都不会记恨你，原因很简单，因为她是你的母亲。</string>
+		<key>time</key>
+		<string>2016-10-01</string>
+		<key>icon</key>
+		<string>Image</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>李四</string>
+		<key>content</key>
+		<string>有位非常漂亮的女同事，有天起晚了没有时间化妆便急忙冲到公司。结果那天她被记旷工了……吃惊]</string>
+		<key>time</key>
+		<string>2016-10-07</string>
+		<key>icon</key>
+		<string>Image-5</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>王五</string>
+		<key>content</key>
+		<string>有一个人叫真咯嗦，娶了个老婆叫要你管，生了个儿子叫麻烦。有一天麻烦不见了！夫妻俩就去报案。警察问爸爸：请问这位男士你叫啥名字？爸爸说:真咯嗦。警察很生气，然后 他又问妈妈叫啥名字。妈妈说:要你管。警察非常生气的说:你们要干什么?夫妻俩说：找麻烦。</string>
+		<key>time</key>
+		<string>2017-08-11</string>
+		<key>icon</key>
+		<string>Image-6</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>解六</string>
+		<key>content</key>
+		<string>人与人间的信任，就像是纸片，一旦破损，就不会再回到原来的样子。</string>
+		<key>time</key>
+		<string>2017-08-12</string>
+		<key>icon</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>斜八</string>
+		<key>content</key>
+		<string>白羊：记不清人；金牛：悔未上床；双子：他（她）是青蛙（恐龙）；巨蟹：善哉善哉；狮子：一脚蹬开；处女：倒大霉了；天秤：感觉很好；天蝎：你死我活；射手：有多少次；摩羯：气死我也；水瓶：奶奶个熊；双鱼：还是想他（她）{点开大图更精彩} @乌托邦办公室</string>
+		<key>time</key>
+		<string>2017-08-13</string>
+		<key>icon</key>
+		<string>Image-2</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>李蛋</string>
+		<key>content</key>
+		<string>有一种借口叫年轻，可以不珍惜时光，不珍惜爱，不珍惜一切来之不易的东西。有一种感情叫错过，错过爱，错过可以相守的人，错过一段刻骨铭心的情。有一种寂寞叫想念，想念一个人，一段往事，一场相遇。寂静的夜里，深深切切的想念，于是深深切切地寂寞……</string>
+		<key>time</key>
+		<string>2017-08-14</string>
+		<key>icon</key>
+		<string>Image-3</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>国强</string>
+		<key>content</key>
+		<string>他做到了，他悬空了！其实你也可以做到，站在一滩水的右上角就ok！</string>
+		<key>time</key>
+		<string>2017-08-15</string>
+		<key>icon</key>
+		<string>Image-4</string>
+	</dict>
+</array>
+</plist>
