@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="37" id="ce6-jY-95l" customClass="PersonCenterCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ce6-jY-95l" id="aZe-TI-rMn">
+                <rect key="frame" x="0.0" y="0.0" width="286" height="36.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ProfileLockOn" translatesAutoresizingMaskIntoConstraints="NO" id="d58-1F-eRx">
+                        <rect key="frame" x="16" y="10" width="17" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="d58-1F-eRx" secondAttribute="height" multiplier="1:1" id="Rd1-xq-c8w"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="摇一摇" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nT2-EQ-7ev">
+                        <rect key="frame" x="60" y="11" width="226" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="d58-1F-eRx" firstAttribute="centerY" secondItem="aZe-TI-rMn" secondAttribute="centerY" id="1NB-pE-t7F"/>
+                    <constraint firstItem="d58-1F-eRx" firstAttribute="leading" secondItem="aZe-TI-rMn" secondAttribute="leadingMargin" id="4Z3-fj-ykm"/>
+                    <constraint firstItem="nT2-EQ-7ev" firstAttribute="centerY" secondItem="aZe-TI-rMn" secondAttribute="centerY" id="DEf-fR-lXH"/>
+                    <constraint firstItem="nT2-EQ-7ev" firstAttribute="bottom" secondItem="aZe-TI-rMn" secondAttribute="bottomMargin" id="MPQ-gt-HAg"/>
+                    <constraint firstItem="nT2-EQ-7ev" firstAttribute="centerX" secondItem="aZe-TI-rMn" secondAttribute="centerX" id="Tij-d6-BKI"/>
+                    <constraint firstItem="nT2-EQ-7ev" firstAttribute="leading" secondItem="d58-1F-eRx" secondAttribute="trailing" constant="27" id="Yve-J2-gKU"/>
+                    <constraint firstItem="nT2-EQ-7ev" firstAttribute="leading" secondItem="aZe-TI-rMn" secondAttribute="leading" constant="60" id="e1g-IL-h0L"/>
+                    <constraint firstItem="d58-1F-eRx" firstAttribute="centerX" secondItem="aZe-TI-rMn" secondAttribute="centerX" id="kJa-mQ-EyL"/>
+                    <constraint firstAttribute="trailing" secondItem="nT2-EQ-7ev" secondAttribute="trailing" id="rmg-O3-Gag"/>
+                    <constraint firstItem="d58-1F-eRx" firstAttribute="leading" secondItem="aZe-TI-rMn" secondAttribute="leading" constant="8" id="vak-dd-Gpq"/>
+                    <constraint firstAttribute="trailing" secondItem="nT2-EQ-7ev" secondAttribute="trailing" constant="127" id="wuZ-4l-RPw"/>
+                    <constraint firstItem="nT2-EQ-7ev" firstAttribute="leading" secondItem="d58-1F-eRx" secondAttribute="trailing" constant="27" id="xTn-4z-7SF"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="kJa-mQ-EyL"/>
+                        <exclude reference="vak-dd-Gpq"/>
+                        <exclude reference="wuZ-4l-RPw"/>
+                        <exclude reference="Yve-J2-gKU"/>
+                        <exclude reference="Tij-d6-BKI"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageView" destination="d58-1F-eRx" id="W2j-FD-c8F"/>
+                <outlet property="titleIV" destination="d58-1F-eRx" id="f0y-AG-epU"/>
+                <outlet property="titleLabel" destination="nT2-EQ-7ev" id="RrM-tR-oAu"/>
+            </connections>
+            <point key="canvasLocation" x="250" y="314.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ProfileLockOn" width="17" height="17"/>
+    </resources>
+</document>
