@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface LBMineHeaderCell : UITableViewCell
-@property (unsafe_unretained, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIImageView *imageV;
 
 @end

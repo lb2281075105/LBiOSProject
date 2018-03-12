@@ -23,14 +23,20 @@
 -(NSMutableArray *)dataArray{
     if (_dataArray==nil) {
         _dataArray = [NSMutableArray arrayWithObjects:
-                      @[@{@"title":@"文明",@"icon":@"MoreExpressionShops"}],
+                      @[@{@"title":@"JCSON",@"icon":@"MoreExpressionShops"}],
                       @[@{@"title":@"相册",@"icon":@"ff_IconShowAlbum"},@{@"title":@"收藏",@"icon":@"MoreMyFavorites"},@{@"title":@"钱包",@"icon":@"MoreMyBankCard"},@{@"title":@"卡券",@"icon":@"MyCardPackageIcon"}],
                       @[@{@"title":@"表情",@"icon":@"MoreExpressionShops"}],
                       @[@{@"title":@"设置",@"icon":@"MoreSetting"}], nil];
     }
     return _dataArray;
 }
--(void)initUI{
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self setUpTv];
+    
+}
+-(void)setUpTv{
     _mineTableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStyleGrouped];
     _mineTableView.dataSource = self;
     _mineTableView.delegate =  self;
@@ -42,12 +48,6 @@
     [_mineTableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo(UIEdgeInsetsMake(kNavbarHeight, 0, 0, 0));
     }];
-}
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    [self initUI];
-    
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{

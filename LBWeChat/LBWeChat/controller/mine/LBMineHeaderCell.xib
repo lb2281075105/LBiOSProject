@@ -10,13 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner">
-            <connections>
-                <outlet property="imageView" destination="uoY-zW-oX9" id="NZX-49-COg"/>
-            </connections>
-        </placeholder>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="82" id="Rlc-je-sk0" customClass="PersonCenterHeaderCell">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="82" id="Rlc-je-sk0" customClass="LBMineHeaderCell">
             <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rlc-je-sk0" id="alp-Lh-QnP">
@@ -55,6 +51,9 @@
                     <constraint firstAttribute="trailing" secondItem="nx7-MP-PiQ" secondAttribute="trailing" id="iR5-zv-AEk"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="imageV" destination="uoY-zW-oX9" id="Kel-o4-ver"/>
+            </connections>
             <point key="canvasLocation" x="250" y="337"/>
         </tableViewCell>
     </objects>
