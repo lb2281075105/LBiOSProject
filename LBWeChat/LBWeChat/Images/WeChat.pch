@@ -1,0 +1,79 @@
+//
+//  WeChat.pch
+//  WeChat
+//
+//  Created by zhengwenming on 16/6/4.
+//  Copyright © 2016年 zhengwenming. All rights reserved.
+//
+
+#ifndef WeChat_pch
+#define WeChat_pch
+
+
+
+#define kGAP 10
+#define kThemeColor [UIColor colorWithRed:0 green:(190 / 255.0) blue:(12 / 255.0) alpha:1]
+#define kAvatar_Size 40
+
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+
+#define kSCREEN_MAX_LENGTH (MAX(kScreenWidth, kScreenHeight))
+#define kSCREEN_MIN_LENGTH (MIN(kScreenWidth, kScreenHeight))
+
+#define IS_IPHONE4 (IS_IPHONE && kSCREEN_MAX_LENGTH < 568.0)
+#define IS_IPHONE5 (IS_IPHONE && kSCREEN_MAX_LENGTH == 568.0)
+#define IS_IPHONE6 (IS_IPHONE && kSCREEN_MAX_LENGTH == 667.0)
+#define IS_IPHONE6P (IS_IPHONE && kSCREEN_MAX_LENGTH == 736.0)
+#define iPhoneX (kScreenWidth == 375.0f) && (kScreenHeight == 812.0f) && IS_IPHONE
+
+
+
+///适配相关
+#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
+
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define kAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
+
+#define kDeviceVersion [[UIDevice currentDevice].systemVersion floatValue]
+
+#define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+
+#define kSystemNavHeight 44.0
+
+#define kNavbarHeight (kStatusBarHeight+kSystemNavHeight)
+
+#define kTabBarHeight (iPhoneX?(49.f+34.f):(49.f))
+
+#define kBottomSafeHeight ((IS_IPHONEX)?(34):(0))
+
+#define kAlmostZero         0.0000001
+
+
+
+#import "Masonry.h"
+
+//category
+#import "UITableViewCell+HYBMasonryAutoCellHeight.h"
+#import "UIImageView+WebCache.h"
+#import "NSString+Extension.h"
+
+
+
+#import "YYKit.h"
+
+
+
+
+
+#import "PinYin4Objc.h"
+#import "CopyAbleLabel.h"
+
+#import "YYFPSLabel.h"
+
+
+
+
+
+#endif /* WeChat_pch */
