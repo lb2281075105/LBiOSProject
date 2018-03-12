@@ -8,7 +8,7 @@
 
 #import "LBHomeController.h"
 
-@interface LBHomeController (){
+@interface LBHomeController ()<UISearchBarDelegate>{
     UISearchBar *_searchBar;
 }
 @property(nonatomic,retain)NSMutableArray *searchReslutArray;
@@ -37,18 +37,25 @@
     self.tableView.tableHeaderView = _searchBar;
 }
 - (void)setUpData{
-    [self.dataSource addObject:@"1"];
-    [self.dataSource addObject:@"2"];
-    [self.dataSource addObject:@"3"];
-    [self.dataSource addObject:@"4"];
-    [self.dataSource addObject:@"5"];
-    [self.dataSource addObject:@"6"];
-    [self.dataSource addObject:@"7"];
-    [self.dataSource addObject:@"8"];
-    [self.dataSource addObject:@"9"];
-    [self.dataSource addObject:@"10"];
-    [self.dataSource addObject:@"11"];
-    [self.dataSource addObject:@"12"];
+    [self.dataSource addObject:@"a"];
+    [self.dataSource addObject:@"b"];
+    [self.dataSource addObject:@"c"];
+    [self.dataSource addObject:@"d"];
+    [self.dataSource addObject:@"e"];
+    [self.dataSource addObject:@"f"];
+    [self.dataSource addObject:@"g"];
+    [self.dataSource addObject:@"h"];
+    [self.dataSource addObject:@"i"];
+    [self.dataSource addObject:@"j"];
+    [self.dataSource addObject:@"k"];
+    [self.dataSource addObject:@"l"];
+    [self.dataSource addObject:@"m"];
+    [self.dataSource addObject:@"m"];
+    [self.dataSource addObject:@"n"];
+    [self.dataSource addObject:@"o"];
+    [self.dataSource addObject:@"p"];
+    [self.dataSource addObject:@"q"];
+
 }
 - (void)setUpSearchBar{
     _searchBar  = [[UISearchBar alloc]initWithFrame:CGRectMake(0, kNavbarHeight, kScreenWidth, 44)];
