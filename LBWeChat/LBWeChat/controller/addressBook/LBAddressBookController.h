@@ -8,6 +8,6 @@
 
 #import "LBBaseController.h"
 
-@interface LBAddressBookController : LBBaseController
+@interface LBAddressBookController : LBBaseController<UITableViewDataSource,UITableViewDelegate>
 
 @end

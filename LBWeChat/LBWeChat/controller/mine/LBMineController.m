@@ -160,5 +160,4 @@
     fullScreenIV = nil;
     _mineTableView = nil;
 }
-
 @end
