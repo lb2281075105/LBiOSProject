@@ -158,7 +158,7 @@
 		3A5169ED20560DBF0059B255 /* AddressBook.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AddressBook.json; sourceTree = "<group>"; };
 		3A5169EE20560DBF0059B255 /* addressBook.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = addressBook.gif; sourceTree = "<group>"; };
 		3A5169EF20560DBF0059B255 /* WeChat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = WeChat.gif; sourceTree = "<group>"; };
-		3A5169F020560DC00059B255 /* WeChat.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChat.pch; sourceTree = "<group>"; };
+		3A8442272056325D0047D543 /* LBWeChatHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBWeChatHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +195,7 @@
 				3A51695F205606BB0059B255 /* controller */,
 				3A5169492056068E0059B255 /* AppDelegate.h */,
 				3A51694A2056068E0059B255 /* AppDelegate.m */,
+				3A8442272056325D0047D543 /* LBWeChatHeader.pch */,
 				3A51694F2056068E0059B255 /* Main.storyboard */,
 				3A5169522056068E0059B255 /* Assets.xcassets */,
 				3A5169542056068E0059B255 /* LaunchScreen.storyboard */,
@@ -271,7 +272,6 @@
 				3A5169EE20560DBF0059B255 /* addressBook.gif */,
 				3A5169ED20560DBF0059B255 /* AddressBook.json */,
 				3A5169EF20560DBF0059B255 /* WeChat.gif */,
-				3A5169F020560DC00059B255 /* WeChat.pch */,
 				3A51697E20560D800059B255 /* Contacts.xcassets */,
 				3A51697F20560D800059B255 /* tx.jpeg */,
 				3A51698020560D800059B255 /* test */,
@@ -627,6 +627,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MECQS3Z269;
+				GCC_PREFIX_HEADER = LBWeChat/LBWeChatHeader.pch;
 				INFOPLIST_FILE = LBWeChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -643,6 +644,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MECQS3Z269;
+				GCC_PREFIX_HEADER = LBWeChat/LBWeChatHeader.pch;
 				INFOPLIST_FILE = LBWeChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

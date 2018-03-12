@@ -1,14 +1,10 @@
 //
-//  WeChat.pch
-//  WeChat
+//  LBWeChatHeader.pch
+//  LBWeChat
 //
-//  Created by zhengwenming on 16/6/4.
-//  Copyright © 2016年 zhengwenming. All rights reserved.
+//  Created by liubo on 2018/3/12.
+//  Copyright © 2018年 刘博. All rights reserved.
 //
-
-#ifndef WeChat_pch
-#define WeChat_pch
-
 
 
 #define kGAP 10
@@ -26,7 +22,6 @@
 #define IS_IPHONE6 (IS_IPHONE && kSCREEN_MAX_LENGTH == 667.0)
 #define IS_IPHONE6P (IS_IPHONE && kSCREEN_MAX_LENGTH == 736.0)
 #define iPhoneX (kScreenWidth == 375.0f) && (kScreenHeight == 812.0f) && IS_IPHONE
-
 
 
 ///适配相关
@@ -52,28 +47,20 @@
 
 
 
-#import "Masonry.h"
-
-//category
-#import "UITableViewCell+HYBMasonryAutoCellHeight.h"
-#import "UIImageView+WebCache.h"
-#import "NSString+Extension.h"
-
-
-
-#import "YYKit.h"
-
-
-
-
-
-#import "PinYin4Objc.h"
-#import "CopyAbleLabel.h"
-
-#import "YYFPSLabel.h"
+//#import "Masonry.h"
+//
+////category
+//#import "UITableViewCell+HYBMasonryAutoCellHeight.h"
+//#import "UIImageView+WebCache.h"
+//#import "NSString+Extension.h"
+//
+//#import "YYKit.h"
+//
+//#import "PinYin4Objc.h"
+//#import "CopyAbleLabel.h"
+//
+//#import "YYFPSLabel.h"
 
 
 
 
-
-#endif /* WeChat_pch */
