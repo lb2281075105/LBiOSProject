@@ -42,6 +42,8 @@
     childController.title = title;
     
     LBBaseNavController *nav = [[LBBaseNavController alloc]initWithRootViewController:childController];
+    UITabBarItem *item = nav.tabBarItem;
+    [item setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithRed:0 green:(190 / 255.0) blue:(12 / 255.0) alpha:1]} forState:UIControlStateSelected];
     [self addChildViewController:nav];
 }
 
