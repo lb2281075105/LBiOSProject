@@ -9,12 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface FriendInfoModel : NSObject
+
 @property(nonatomic,copy)NSString *photo;
-
 @property(nonatomic,copy)NSString *userName;
-
 @property(nonatomic,copy)NSString *userId;
-
 @property(nonatomic,copy)NSString *phoneNO;
 @property(nonatomic,assign)NSRange range;
 

@@ -53,7 +53,7 @@
 
 #import "YYKit.h"
 #import "PinYin4Objc.h"
-#import "CopyAbleLabel.h"
+//#import "CopyAbleLabel.h"
 #import "YYFPSLabel.h"
 
 

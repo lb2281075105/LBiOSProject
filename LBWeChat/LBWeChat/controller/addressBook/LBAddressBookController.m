@@ -25,7 +25,17 @@
 @end
 
 @implementation LBAddressBookController
--(void)initUI{
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    dataSource = [[NSMutableArray alloc]init];
+    updateArray = [[NSMutableArray alloc]init];
+    self.lettersArray = [[NSArray alloc]init];
+    [self setUpUI];
+    [self loadAddressBookData];
+    [searchController.view bringSubviewToFront:searchController.searchBar];
+}
+-(void)setUpUI{
     self.nameDic = [[NSMutableDictionary alloc]init];
     self.results = [[NSMutableArray alloc]init];
     
@@ -57,9 +67,7 @@
     rect.size.height = 44;
     bar.frame = rect;
     
-    
-    
-    //    self.definesPresentationContext = NO;
+    //self.definesPresentationContext = NO;
     //设置searchBar的边框颜色，四周的颜色
     searchController.searchBar.barTintColor = [UIColor groupTableViewBackgroundColor];
     UIImageView *view = [[[searchController.searchBar.subviews objectAtIndex:0] subviews] firstObject];
@@ -78,15 +86,6 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
 }
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    dataSource = [[NSMutableArray alloc]init];
-    updateArray = [[NSMutableArray alloc]init];
-    self.lettersArray = [[NSArray alloc]init];
-    [self initUI];
-    [self loadAddressBookData];
-    [searchController.view bringSubviewToFront:searchController.searchBar];
-}
 -(void)loadAddressBookData{
     NSData *friendsData = [NSData dataWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"AddressBook" ofType:@"json"]]];
     NSDictionary *JSONDic = [NSJSONSerialization JSONObjectWithData:friendsData options:NSJSONReadingAllowFragments error:nil];
@@ -116,7 +115,6 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     static NSString *identifer = @"AddressBookCell";
-    
     
     AddressBookCell *cell = (AddressBookCell *)[tableView dequeueReusableCellWithIdentifier:identifer];
     
@@ -171,7 +169,6 @@
 {
     for (UIView *aView in friendTableView.subviews) {
         if ([aView isKindOfClass:NSClassFromString(@"UITableViewIndex")]) {
-            //            NSLog(@"aveiw = %@,  class = %@",aView,NSStringFromClass(aView.class));
             
         } if ([aView isKindOfClass:NSClassFromString(@"UISearchBar")]) {
             [self.view bringSubviewToFront:aView];
@@ -213,8 +210,6 @@
 #pragma mark UISearchBarDelegate
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar
 {
-    
-    
 }
 
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
@@ -259,19 +254,11 @@
 - (BOOL)searchBarShouldBeginEditing:(UISearchBar *)searchBar
 {
     searchController.searchBar.showsCancelButton = YES;
-    
-    
-    //    UIButton *canceLBtn = [searchController.searchBar valueForKey:@"cancelButton"];
-    //    [canceLBtn setTitle:@"取消" forState:UIControlStateNormal];
-    //    [canceLBtn setTitleColor:[UIColor colorWithRed:14.0/255.0 green:180.0/255.0 blue:0.0/255.0 alpha:1.00] forState:UIControlStateNormal];
-    //    searchBar.showsCancelButton = YES;
     return YES;
 }
 
 - (BOOL)searchBarShouldEndEditing:(UISearchBar *)searchBar
 {
-    
-    
     return YES;
 }
 
@@ -282,7 +269,6 @@
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *) searchBar
 {
-    
     [searchBar resignFirstResponder];
 }
 //处理letterArray，包括按英文字母顺序排序
@@ -314,13 +300,11 @@
             formatter.vCharType = VCharTypeWithV;
             formatter.toneType = ToneTypeWithoutTone;
             
-            //把friend的userName汉子转为汉语拼音，比如：张磊---->zhanglei
+            //把friend的userName汉子转为汉语拼音
             NSString *outputPinyin=[PinyinHelper toHanyuPinyinStringWithNSString:friends.userName withHanyuPinyinOutputFormat:formatter withNSString:@""];
             if ([letter isEqualToString:[[outputPinyin substringToIndex:1] uppercaseString]]) {
                 [tempArry addObject:friends];
-                
             }
-            
         }
         [self.nameDic setObject:tempArry forKey:letter];
     }

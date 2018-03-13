@@ -90,10 +90,8 @@
 		3A844257205649D80047D543 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A84424E205649D70047D543 /* MASViewConstraint.m */; };
 		3A844258205649D80047D543 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A84424F205649D70047D543 /* MASViewAttribute.m */; };
 		3A84425B205673A50047D543 /* SearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A84425A205673A50047D543 /* SearchResultViewController.m */; };
-		3A844263205674620047D543 /* JGGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A84425D205674610047D543 /* JGGView.m */; };
 		3A844264205674620047D543 /* AddressBookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A84425F205674610047D543 /* AddressBookCell.xib */; };
 		3A844265205674620047D543 /* AddressBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A844260205674610047D543 /* AddressBookCell.m */; };
-		3A844266205674620047D543 /* CopyAbleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A844262205674610047D543 /* CopyAbleLabel.m */; };
 		3A8442692056765B0047D543 /* FriendInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8442672056765A0047D543 /* FriendInfoModel.m */; };
 		3A84438E205677AB0047D543 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A84426B205677AA0047D543 /* UIScrollView+MJRefresh.m */; };
 		3A84438F205677AB0047D543 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A84426C205677AA0047D543 /* MJRefreshConst.m */; };
@@ -343,13 +341,9 @@
 		3A84424F205649D70047D543 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
 		3A844259205673A50047D543 /* SearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultViewController.h; sourceTree = "<group>"; };
 		3A84425A205673A50047D543 /* SearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultViewController.m; sourceTree = "<group>"; };
-		3A84425C205674600047D543 /* CopyAbleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyAbleLabel.h; sourceTree = "<group>"; };
-		3A84425D205674610047D543 /* JGGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGGView.m; sourceTree = "<group>"; };
 		3A84425E205674610047D543 /* AddressBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookCell.h; sourceTree = "<group>"; };
 		3A84425F205674610047D543 /* AddressBookCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressBookCell.xib; sourceTree = "<group>"; };
 		3A844260205674610047D543 /* AddressBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookCell.m; sourceTree = "<group>"; };
-		3A844261205674610047D543 /* JGGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGGView.h; sourceTree = "<group>"; };
-		3A844262205674610047D543 /* CopyAbleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyAbleLabel.m; sourceTree = "<group>"; };
 		3A8442672056765A0047D543 /* FriendInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendInfoModel.m; sourceTree = "<group>"; };
 		3A8442682056765B0047D543 /* FriendInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendInfoModel.h; sourceTree = "<group>"; };
 		3A84426B205677AA0047D543 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
@@ -736,10 +730,6 @@
 				3A84425E205674610047D543 /* AddressBookCell.h */,
 				3A844260205674610047D543 /* AddressBookCell.m */,
 				3A84425F205674610047D543 /* AddressBookCell.xib */,
-				3A84425C205674600047D543 /* CopyAbleLabel.h */,
-				3A844262205674610047D543 /* CopyAbleLabel.m */,
-				3A844261205674610047D543 /* JGGView.h */,
-				3A84425D205674610047D543 /* JGGView.m */,
 				3A8442682056765B0047D543 /* FriendInfoModel.h */,
 				3A8442672056765A0047D543 /* FriendInfoModel.m */,
 			);
@@ -1518,7 +1508,6 @@
 				3A8443C2205677AB0047D543 /* YYTextEffectWindow.m in Sources */,
 				3A8443A8205677AB0047D543 /* MBProgressHUD+Show.m in Sources */,
 				3A844403205677AB0047D543 /* SDWebImageDownloader.m in Sources */,
-				3A844266205674620047D543 /* CopyAbleLabel.m in Sources */,
 				3A8443E5205677AB0047D543 /* NSObject+YYAdd.m in Sources */,
 				3A8443B9205677AB0047D543 /* MKAnnotationView+YYWebImage.m in Sources */,
 				3A8443FB205677AB0047D543 /* YYTimer.m in Sources */,
@@ -1565,7 +1554,6 @@
 				3A8443F7205677AB0047D543 /* YYDispatchQueuePool.m in Sources */,
 				3A8443D8205677AB0047D543 /* UIApplication+YYAdd.m in Sources */,
 				3A844408205677AB0047D543 /* SDImageCache.m in Sources */,
-				3A844263205674620047D543 /* JGGView.m in Sources */,
 				3A8443D4205677AB0047D543 /* UITextField+YYAdd.m in Sources */,
 				3A8443EC205677AB0047D543 /* NSString+YYAdd.m in Sources */,
 				3A8443CD205677AB0047D543 /* NSParagraphStyle+YYText.m in Sources */,
