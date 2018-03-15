@@ -20,7 +20,8 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[LBDisplayPageController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[[LBDisplayPageController alloc]init]];
+    self.window.rootViewController = nav;
     
     return YES;
 }
