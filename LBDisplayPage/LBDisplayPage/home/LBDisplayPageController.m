@@ -91,7 +91,35 @@
 //            _imageView.height = 230 - offSet;
 //            _imageView.height = _imageView.height;
 //        }
+    
+    if(scrollView.contentOffset.y<0) {
+        
+        [self.navigationController setNavigationBarHidden:YES animated:NO];
+    }else{
+        
+        [self.navigationController setNavigationBarHidden:NO animated:NO];
+        
+        CGFloat alpha=scrollView.contentOffset.y/90.0f>1.0f?1:scrollView.contentOffset.y/90.0f;
+        
+        [self.navigationController.navigationBar setBackgroundImage:[self getImageWithAlpha:alpha] forBarMetrics:UIBarMetricsDefault];
+    }
+    
 }
+-(UIImage *)getImageWithAlpha:(CGFloat)alpha{
+    
+    UIColor *color=[UIColor colorWithRed:1 green:0 blue:0 alpha:alpha];
+    CGSize colorSize=CGSizeMake(1, 1);
+    UIGraphicsBeginImageContext(colorSize);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, color.CGColor);
+    CGContextFillRect(context, CGRectMake(0, 0, 1, 1));
+    
+    UIImage *img=UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return img;
+}
+
 - (void)webViewDidFinishLoad:(UIWebView *)webView{
     NSArray *arr = [webView subviews];
     UIScrollView *scrollView = [arr objectAtIndex:0];
